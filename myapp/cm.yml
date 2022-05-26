@@ -1,0 +1,15 @@
+apiVersion: v1
+
+kind: ConfigMap
+
+metadata:
+
+  name: myapp-config
+
+data:
+
+  index.html: |
+
+    This is line 1 <p> 
+
+    and this is line 2 of the multiline string!
